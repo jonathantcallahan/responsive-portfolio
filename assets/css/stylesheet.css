@@ -220,6 +220,29 @@ textarea {
 	position: relative;
 }
 
+@media only screen and (max-width: 950px) {
+			
+	.bio {
+	float:left;
+	width: 55%;
+	color: #777777;
+	background-color: #ffffff;
+	padding-right: 5px;
+	margin-left: 15px;
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	}	
+
+
+	.contact-info {
+	width: 25%;
+	margin: 30px 5% 0px;
+	}
+	
+	}
+
 @media only screen and (max-width: 768px) {
 	
 	body {
