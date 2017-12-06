@@ -10,6 +10,9 @@ body {
 	font-family: 'Arial';
 	font-size: 15px;
 	background-image: url("../../circleslight.png");
+}
+
+.main-content {
 	margin: 0px;
 	width: 960px;
 	margin-left: auto;
@@ -23,7 +26,7 @@ body {
 }
 
 .bio-text {
-	padding-top: 2px;
+	padding-top: 15px;
 	font-size: 12px;
 }
 
@@ -39,6 +42,13 @@ body {
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
 	height: 70px;
+	text-align: center;
+}
+
+.name-and-header {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
 }
 
 .top-name {
@@ -235,6 +245,20 @@ textarea {
 	border-color: #dddddd;
 	}	
 
+	header {
+	width: 100%;
+	}
+
+	.name-and-header {
+		text-align: left;
+	width: 100%;
+	}
+
+	.top-nav {
+	color: #777777;
+	display: inline-block;
+	margin-left: 30%;
+
 
 	.contact-info {
 	width: 25%;
@@ -259,10 +283,10 @@ textarea {
 		margin: 30px 5% 0px;
 	}
 
+
 	.top-nav {
 	margin-left: 30%;
-
-}
+	}
 
 
 }
